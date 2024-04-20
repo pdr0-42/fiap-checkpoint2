@@ -10,7 +10,7 @@ Checkpoint 2
 - Url: jdbc:h2:mem:testdb
 
 ```
-docker run -d -p 8080:8080 -e PROFILE=dev souza11/fiap-checkpoint2
+docker run -d -p 8080:8080 -e PROFILE=dev pvini0403/fiap-checkpoint2
 ```
 
 *Comando docker para executar a aplicação a partir do docker hub com o profile "prd" (produção) - Oracle SQL developer
@@ -22,7 +22,7 @@ docker run -d -p 8080:8080 -e PROFILE=dev souza11/fiap-checkpoint2
 - Url: jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl
 
 ```
-docker run -d -p 8080:8080 -e PROFILE=prd souza11/fiap-checkpoint2 
+docker run -d -p 8080:8080 -e PROFILE=prd pvini0403/fiap-checkpoint2 
 ```
 
 *Comando docker para executar a aplicação a partir do docker hub com o profile "stg"(stagging - homologação) - MySQL
@@ -34,4 +34,4 @@ docker run -d -p 8080:8080 -e PROFILE=prd souza11/fiap-checkpoint2
 - Url: jdbc:mysql://localhost:3306/rh?createDatabaseIfNotExist=true
 
 ```
-docker run -d -p 8080:8080 -e PROFILE=stg souza11/fiap-checkpoint2 
+docker run -d -p 8080:8080 -e PROFILE=stg pvini0403/fiap-checkpoint2 
