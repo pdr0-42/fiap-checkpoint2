@@ -70,7 +70,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<image>
-						<name>souza11/fiap-checkpoint2</name>
+						<name>pvini0403/fiap-checkpoint2</name>
 					</image>
 					<excludes>
 						<exclude>
